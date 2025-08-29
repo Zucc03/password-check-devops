@@ -15,3 +15,5 @@ def is_valid_password(password):
     if not any(c.isupper() for c in password):
         return False
     return True
+
+#Test
